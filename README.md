@@ -10,7 +10,7 @@ An exception is an event that happens during a program's execution and disturb t
 
 4.  Corrupt data files.
 ## Error and Exception
-errors cannot be handled but exception can be handled using exception handling syntax.
+Errors cannot be handled but exception can be handled using exception handling syntax.
 #### example of error is :
 print("hello)
 ## What is Exception Handling ? 
@@ -25,6 +25,8 @@ Exception handling is the process of managing *exception* in a program to preven
 3.else
 
 4.finally
+## Blocks
+____________________________________________________________________________________________________________________________________________________________________________
 
 ### 1. Try Block:
 
@@ -34,8 +36,10 @@ Contains the code that might raise an exception.
 
 
 #### Syntax:
-try: #Code that might cause an exception
+try: 
 
+#Code that might cause an exception
+___________________________________________________________________________________________________________________________________________________________________________
 ### 2. Except Block:
 
 
@@ -46,7 +50,11 @@ Catches and handles the exception if one occurs in the try block.
 #### Syntax:
 
 
-except ExceptionType: #Code to handle the exception
+except ExceptionType: 
+
+#Code to handle the exception
+___________________________________________________________________________________________________________________________________________________________________________
+
 ### 3. Else Block:
 
 #### Purpose: 
@@ -54,8 +62,10 @@ Contains code that runs if no exception occurs in the try block.
 
 #### Syntax:
 
-else: #Code to execute if no exception was raised
+else: 
 
+#Code to execute if no exception was raised
+___________________________________________________________________________________________________________________________________________________________________________
 ### 4. Finally Block:
 
 #### Purpose: 
@@ -63,15 +73,42 @@ Contains code that always runs, regardless of whether an exception occurred or n
 
 #### Syntax:
 
-finally: #Code that always runs
+finally: 
 
+#Code that always runs
+___________________________________________________________________________________________________________________________________________________________________________
 ##### try block: Code that might cause an exception.
-
+____________________________________________________
 ##### except block: Handles specific exceptions.
+____________________________________________________
 
 ##### else block: Runs if no exceptions are raised.
+____________________________________________________
 
 ##### finally block: Always runs, used for cleanup.
+____________________________________________________
+## TYPES 
+#### ValueError:
+
+
+Happens when you try to use the wrong type of value in a function or operation.
+
+#### IndexError:
+
+
+Occurs when you try to access an index that is out of the range of a list or other sequence types.
+
+#### ZeroDivisionError:
+
+
+Happens when you try to divide a number by zero.
+
+#### NameError:
+
+
+Occurs when you try to use a variable or function that hasn’t been defined yet.
+
+
 
 
 
