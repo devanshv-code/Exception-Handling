@@ -22,6 +22,6 @@ try:
 except:
     print("invalid input")
 else:
-    print("hello")
+    print("code runs without errors")
 finally:
     print("finish")

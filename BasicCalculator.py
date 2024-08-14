@@ -32,7 +32,7 @@ except:
     sys.exit()
 
 try:
-    no2=int(input("Enter the second number : "))
+    no2=float(input("Enter the second number : "))
 except:
     print("Invalid second input")
     sys.exit()
