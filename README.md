@@ -26,7 +26,7 @@ Exception handling is the process of managing *exception* in a program to preven
 
 4.finally
 
-### Try Block:
+### 1. Try Block:
 
 
 #### Purpose: 
@@ -34,9 +34,9 @@ Contains the code that might raise an exception.
 
 
 #### Syntax:
-try: # Code that might cause an exception
+try: #Code that might cause an exception
 
-### Except Block:
+### 2. Except Block:
 
 
 #### Purpose: 
@@ -46,28 +46,28 @@ Catches and handles the exception if one occurs in the try block.
 #### Syntax:
 
 
-except ExceptionType: # Code to handle the exception
-### Else Block:
+except ExceptionType: #Code to handle the exception
+### 3. Else Block:
 
 #### Purpose: 
 Contains code that runs if no exception occurs in the try block.
 
 #### Syntax:
 
-else: # Code to execute if no exception was raised
+else: #Code to execute if no exception was raised
 
-### Finally Block:
+### 4. Finally Block:
 
 #### Purpose: 
 Contains code that always runs, regardless of whether an exception occurred or not (often used for cleanup).
 
 #### Syntax:
 
-finally: # Code that always runs
+finally: #Code that always runs
 
 ##### try block: Code that might cause an exception.
 
-##### except block: Handles specific exceptions or errors.
+##### except block: Handles specific exceptions.
 
 ##### else block: Runs if no exceptions are raised.
 
