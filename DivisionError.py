@@ -2,7 +2,7 @@
 Write a program that asks the user to input two numbers and then
 divides the first number by the second number. Use exception handling to
 manage the case where the user inputs zero
-as the second number and print an appropriate error message.
+as the second number and print an appropriate error  message.
 """
 
 input1=int(input("enter the number : "))

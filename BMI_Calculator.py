@@ -5,7 +5,7 @@ Ask the user to input their weight in kilograms.
 Ask the user to input their height in meters.
 Calculate the BMI using the formula: BMI = weight / (height ** 2)
 Handle invalid input for both the weight and height.
-Handle the scenario where height is zero or negative.
+Handle the scenario where height is zero or negative .
 """
 
 def bmi():

@@ -34,7 +34,7 @@ except:
 try:
     no2=float(input("Enter the second number : "))
 except:
-    print("Invalid second input")
+    print("Invalid second input ")
     sys.exit()
 
 try:

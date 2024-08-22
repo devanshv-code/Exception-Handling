@@ -1,8 +1,4 @@
-input1=input("Enter the number : ")
-try:
-    print(int(input1)*2)
-except:
-    print("ERROR")
+
 
 
 input1=input("Enter the number : ")
@@ -15,7 +11,7 @@ else:
 finally:
     print("completed")
 
-
+"""
 try:
     input1=input("Enter the  number : ")
     print(int(input1)*2)
@@ -24,4 +20,4 @@ except:
 else:
     print("code runs without errors")
 finally:
-    print("finish")
+    print("finish")"""
