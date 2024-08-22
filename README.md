@@ -69,7 +69,7 @@ ________________________________________________________________________________
 ### 4. Finally Block:
 
 #### Purpose: 
-Contains code that always runs, regardless of whether an exception occurred or not (often used for cleanup).
+Contains code that always runs, regardless of whether an exception occurred or not.
 
 #### Syntax:
 
